@@ -1,0 +1,46 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "REST API",
+    "description": ""
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/api/web": {
+      "get": {
+        "tags": [
+          "TEST"
+        ],
+        "description": "TEST API Endpoint Document.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Hello World API."
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        }
+      }
+    },
+    "/web": {
+      "get": {
+        "tags": [
+          "WEB"
+        ],
+        "description": "Web Routes Document.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Hello World Web."
+          }
+        }
+      }
+    }
+  }
+}
