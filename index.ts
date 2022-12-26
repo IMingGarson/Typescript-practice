@@ -23,7 +23,7 @@ app.use(
 );
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Express + TypeScript Server, hell yeah hot reload!!!');
+    res.send('Express + TypeScript Server LUL!');
 });
 
 app.listen(port, () => {
