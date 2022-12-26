@@ -22,7 +22,7 @@ app.use("/api-docs", swagger_ui_express_1.default.serve, swagger_ui_express_1.de
     },
 }));
 app.get('/', (req, res) => {
-    res.send('Express + TypeScript Server!!!');
+    res.send('Express + TypeScript Server, hell yeah hot reload!!!');
 });
 app.listen(port, () => {
     console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
